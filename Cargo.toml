@@ -1,0 +1,24 @@
+[package]
+authors = ["pleme-io"]
+description = "lava-serverless — typed (deflava-serverless-function …) abstracting AWS Lambda + GCP Functions + Cloudflare Workers behind one shape. Each function declares typed runtime + handler + bindings; the typed Provider trait emits provider-specific terraform.json that magma applies."
+edition = "2024"
+license = "MIT"
+name = "lava-serverless"
+readme = "README.md"
+repository = "https://github.com/pleme-io/lava-serverless"
+version = "0.1.0"
+
+[lib]
+name = "lava_serverless"
+path = "src/lib.rs"
+
+[lints.clippy]
+pedantic = "warn"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+indexmap = { version = "2", features = ["serde"] }
+thiserror = "2"
+lava-core = { git = "https://github.com/pleme-io/lava-core", branch = "main" }
+lava-eval = { git = "https://github.com/pleme-io/lava-eval", branch = "main" }
