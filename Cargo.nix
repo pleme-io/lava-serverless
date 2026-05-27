@@ -266,8 +266,8 @@ rec {
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/lava-eval";
-          rev = "6427102543b0a36a1923a9c9e077c47243ae1c84";
-          sha256 = "027w31sdc5slbixp500win1i84kp3xdxva8rsy8dsdxp5cxnhn6g";
+          rev = "5bc6cdc256d660dfc213abff6fa6dd337553b4b1";
+          sha256 = "01s0zjmq59pal7xznfb3dvdp2i2f3nb440kpf5pv2dwm8137msk5";
         };
         libName = "lava_eval";
         authors = [
@@ -349,7 +349,7 @@ rec {
       };
       "lava-serverless" = rec {
         crateName = "lava-serverless";
-        version = "0.1.1";
+        version = "0.1.2";
         edition = "2024";
         src = lib.cleanSourceWith { filter = sourceFilter;  src = ./.; };
         libName = "lava_serverless";
