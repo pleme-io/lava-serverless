@@ -59,7 +59,7 @@ dependencies = [
 [[package]]
 name = "lava-eval"
 version = "0.1.7"
-source = "git+https://github.com/pleme-io/lava-eval?branch=main#6427102543b0a36a1923a9c9e077c47243ae1c84"
+source = "git+https://github.com/pleme-io/lava-eval?branch=main#5bc6cdc256d660dfc213abff6fa6dd337553b4b1"
 dependencies = [
  "indexmap",
  "lava-arch",
