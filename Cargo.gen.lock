@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "cargo_lock_sha256": "c144c5f8a17dd045b2d99718685e8d3551a48338dc8ea28d8883816c67d7a625",
+  "cargo_lock_sha256": "27bee084386ed80558f14de58b637c40f24184626c4a446bacf7dbc665b24349",
   "manifest_sha256": {
-    "Cargo.toml": "6545f92047a2bbfdb2e3b29971a8cc3c07011f283b78a615e39d859167884749"
+    "Cargo.toml": "a3e0c0cc810307bc112d8fbb7bc9938fc126c78f4a9f5a91d7b4b78b64813ba3"
   },
   "target_resolves": {
     "base": {
@@ -321,7 +321,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "lava-serverless-0.1.4": {
+      "lava-serverless-0.1.5": {
         "runtime_dependencies": [
           {
             "name": "indexmap",
@@ -824,7 +824,7 @@
     "lava-schema-0.1.7": {
       "edition": "2024"
     },
-    "lava-serverless-0.1.4": {
+    "lava-serverless-0.1.5": {
       "edition": "2024",
       "lib_target": {
         "name": "lava_serverless",
