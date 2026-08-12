@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "cargo_lock_sha256": "29534d72267529e82ddeb3335d7a8d3f8b7e1a4223b47e4707b00e13d332a8a1",
+  "cargo_lock_sha256": "be53b49cf48b39b9f88985a8364f25afd909a1c4ec42b683b3de4e27e975c68a",
   "manifest_sha256": {
-    "Cargo.toml": "b3bfff790a0886367d248079802b685b750690d79bdcadfbf058fd25dc903931"
+    "Cargo.toml": "880897033363624d165c4363e2448c94c8d489502c0e7d53010a3cd5020de1d8"
   },
   "target_resolves": {
     "base": {
@@ -109,7 +109,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.19",
+            "package_key": "thiserror-2.0.20",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -171,7 +171,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.19",
+            "package_key": "thiserror-2.0.20",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -261,7 +261,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.19",
+            "package_key": "thiserror-2.0.20",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -311,7 +311,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.19",
+            "package_key": "thiserror-2.0.20",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -323,7 +323,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "lava-serverless-0.2.0": {
+      "lava-serverless-0.2.1": {
         "runtime_dependencies": [
           {
             "name": "indexmap",
@@ -381,7 +381,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.19",
+            "package_key": "thiserror-2.0.20",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -409,7 +409,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.19",
+            "package_key": "thiserror-2.0.20",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -721,11 +721,11 @@
           "proc-macro"
         ]
       },
-      "thiserror-2.0.19": {
+      "thiserror-2.0.20": {
         "runtime_dependencies": [
           {
             "name": "thiserror_impl",
-            "package_key": "thiserror-impl-2.0.19",
+            "package_key": "thiserror-impl-2.0.20",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -740,7 +740,7 @@
           "std"
         ]
       },
-      "thiserror-impl-2.0.19": {
+      "thiserror-impl-2.0.20": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
@@ -838,7 +838,7 @@
     "lava-schema-0.1.7": {
       "edition": "2024"
     },
-    "lava-serverless-0.2.0": {
+    "lava-serverless-0.2.1": {
       "edition": "2024",
       "lib_target": {
         "name": "lava_serverless",
@@ -884,11 +884,11 @@
     "syn-3.0.3": {
       "edition": "2021"
     },
-    "thiserror-2.0.19": {
+    "thiserror-2.0.20": {
       "edition": "2021",
       "build_script": "build.rs"
     },
-    "thiserror-impl-2.0.19": {
+    "thiserror-impl-2.0.20": {
       "edition": "2021",
       "proc_macro": true
     },
